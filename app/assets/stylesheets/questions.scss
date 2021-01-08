@@ -1,3 +1,19 @@
 // Place all the styles related to the questions controller here.
 // They will automatically be included in application.css.
 // You can use Sass (SCSS) here: http://sass-lang.com/
+
+$font-family: monospace;
+$primary-color: white;
+
+body {
+    background-image: url(https://www.gannett-cdn.com/-mm-/110a90a81b6f5d86bd54f436476412d8ef2a4c6a/c=317-0-1748-809/local/-/media/Phoenix/None/2014/10/10/635485383239870274-ferris-bueller.jpg?width=1320&height=748&fit=crop&format=pjpg&auto=webp);
+    background-size: cover;
+    font-family: $font-family;
+    color: $primary-color;
+
+}
+
+#container {
+    font-size: 26px;
+    font-weight: bold;
+}
